@@ -1,0 +1,40 @@
+body {
+    
+    background-color: #F5F5F5;
+   
+}
+
+.Categorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/listraOnduladaB.png');
+    background-size: 110% auto; 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 30rem;
+}
+
+.doces h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Cup{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(78, 190, 78, 0.656);
+}
+
+span a {
+    color: black;
+    text-decoration: none;
+}
+
+
+

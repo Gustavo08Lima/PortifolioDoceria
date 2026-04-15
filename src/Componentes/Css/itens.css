@@ -1,0 +1,29 @@
+
+
+
+
+.caixa span {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    overflow: hidden;
+    gap: 20px;
+}
+
+
+.caixa2 {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 30px;
+    background-color: white;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+         
+}
+
+.caixa:hover .caixa2 {
+    transform: scale(1.2);
+}
+
+

@@ -1,0 +1,12 @@
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: auto !important;
+    overflow-x: hidden; /* Evita barra lateral horizontal */
+    overflow-y: visible !important; 
+    font-family: 'Poppins', sans-serif !important;
+    
+}

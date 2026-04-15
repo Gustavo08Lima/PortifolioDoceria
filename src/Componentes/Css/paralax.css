@@ -1,0 +1,47 @@
+
+
+
+body, html {
+ margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+
+
+
+.paralax {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.parallax {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    min-height: 50vh;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 2rem;
+    width: 100vw;
+    height: 20vh;
+   
+}
+
+

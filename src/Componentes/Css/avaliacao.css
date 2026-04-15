@@ -1,0 +1,64 @@
+.secao {
+    background-color:  rgb(247, 228, 205);
+    height: 200%;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    flex-direction: column;
+}
+
+#Sobre {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 100px;
+    gap: 30px;
+    
+}
+
+.imagem {
+
+    height: 100%;
+    width: 40vw;
+    background-color: antiquewhite;
+    
+    
+}
+
+.av {
+    display: flex;
+    gap: 10px;
+    
+}
+
+#Sobre p {
+
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.pequeno {
+    
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+}
+
+.quadrado {
+    display: flex;
+}
+
+.teste {
+    width: 20vw;
+    background-color: blue;
+}
