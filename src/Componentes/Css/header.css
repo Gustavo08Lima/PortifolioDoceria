@@ -16,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 0px;
     
     height: 15vh;
     width: 100%;
@@ -29,6 +29,7 @@ body {
         rgba(0, 0, 0, 0.815) 0%,   /* Cor escura no topo */
         rgba(0, 0, 0, 0.2) 50%,  /* Vai clareando no meio */
         transparent 100%         /* Fica invisível no final do header */);
+        box-sizing: border-box;
     
    
     
@@ -42,9 +43,10 @@ body {
     align-items: flex-start;
     flex-direction: column;
     margin-bottom: 0 auto;
-    margin-left: -10vw;
-    margin-right: 10vw;
+    margin-left: -15vw;
+    margin-right: 20vw;
     
+   
     
     
     
@@ -53,6 +55,7 @@ body {
     display: flex;
     gap: 80px;
     border: none;
+    
    
 
 }
@@ -61,6 +64,7 @@ body {
     padding: 4px;
     border: solid 1px white;
     border-radius: 20px;
+    
     
 
 }
@@ -72,6 +76,46 @@ a {
 
 
 .casa {
-    height: 100px;
+    height: 7vh;
+    margin: 0 auto;
     
+   
+    
+}
+
+
+@media screen and (max-width: 768px){ 
+    .footer {
+    
+    height: 15vh;
+    width: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    box-sizing: border-box;
+    overflow: hidden;
+    }
+    .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 6vw;
+    font-size: 15px;
+    
+   
+   
+
+}
+.logo {
+    
+    
+    margin-right: 0;
+    display: flex;
+    
+    
+    
+    
+}
+
+
 }

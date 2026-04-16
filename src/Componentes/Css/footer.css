@@ -16,4 +16,22 @@ footer {
     background-color:  rgba(78, 149, 190, 0.656);
     height: 14rem;
     text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    .infos {
+    gap: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color:  rgba(78, 149, 190, 0.656);
+    height: 30rem;
+    text-align: center;
+}
+
+
 }

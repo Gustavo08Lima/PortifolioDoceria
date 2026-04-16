@@ -14,6 +14,13 @@ body {
     background-position: center;
     width: 100vw;
     height: 30rem;
+    color: white;
+}
+
+.Categorias a {
+    
+    font-size: 30px;
+    
 }
 
 .doces h1 {
@@ -29,6 +36,8 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(78, 190, 78, 0.656);
+    color: white;
+   
 }
 
 span a {
@@ -36,5 +45,30 @@ span a {
     text-decoration: none;
 }
 
+@media screen and (max-width: 768px){
+ .doces span {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    text-align: center;
+ }
+ .Categorias a{
+   margin: 10px; 
+   width: 7rem;
+ 
+}
 
+.doces .Cup {
+    gap: 4rem;
+    color: white;
+}
+
+.Categorias a {
+    
+    font-size: 15px;
+    
+}
+
+
+}
 

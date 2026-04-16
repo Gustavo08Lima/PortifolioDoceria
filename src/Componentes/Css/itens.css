@@ -26,4 +26,13 @@
     transform: scale(1.2);
 }
 
+@media screen and (max-width: 768px){
 
+ 
+    .caixa2 {
+        height: 8rem;
+        
+        padding: 0px;
+    }
+
+}

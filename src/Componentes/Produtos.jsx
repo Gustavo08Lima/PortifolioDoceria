@@ -1,7 +1,7 @@
 import Itens from './Itens'
 import Bloco from './Bloco'
 import './Css/produtos.css'
-import cup from "../assets/cupcake.webp"
+import cup from "../assets/cupcakes.jpg"
 import muffin from "../assets/muffin.jpg"
 import cake from "../assets/cake.jpg"
 import Pcake from "../assets/piece-cake.jpg"

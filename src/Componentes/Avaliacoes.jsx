@@ -8,6 +8,7 @@ import M from '../assets/Mulher1.jpg'
 import M1 from '../assets/mulher2.jpg'
 import H from '../assets/homem.jpg'
 import SaibaMais from './retangulo'
+import { Link } from 'react-router-dom';
 
 
 function Avaliacao () {
@@ -17,38 +18,47 @@ function Avaliacao () {
      <div className='secao'>
 
 
-         <div style={{display:'flex', justifyContent:'center', gap: '5px', width:'100%'}}>
+         <div className='lista' style={{display:'flex', justifyContent:'center', gap: '5px', width:'100%'}}>
             <SaibaMais
              estilo="tamanho"
              candy={cup}
              text="Bolos artísticos e personalizados trabalhados exclusivamente com buttercream." 
              link="Saiba Mais"
-             caminho="/Doces"/>
+             caminho="/Produtos"/>
             <SaibaMais
              estilo="tamanho"
              candy={muffin}
              text="Cupcakes recheados decorados com buttercream e detalhes decorativos em pasta americana." 
              link="Saiba Mais"
-             caminho="/Doces"/>
+             caminho="/Produtos"/>
             <SaibaMais
             estilo="tamanho"
             candy={Pcake}
              text="Brigadeiros artesanais produzidos  com chocolate nobre e sem adição de nenhum aditivo e/ou conservante." 
              link="Saiba Mais"
-             caminho="/Doces"/>
+             caminho="/Produtos"/>
             
          </div>
 
         <div id='Sobre'>
             <img className="imagem" src={bolo} alt="" />
-            <p>Nascemos do desejo de transformar 
-            momentos em memórias.
-            Criamos bolos que encantam aos olhos, mas principalmente, tocam a alma.
-            Cada detalhe é pensado com intenção.
-            Cada escolha é feita com sensibilidade.
-            Cada criação carrega cuidado.
-            Se você acredita que celebrar é um ato de amor, você está no lugar certo.
-            </p>
+
+            <span className='esc'>
+
+                    <p>
+                    Nascemos do desejo de transformar 
+                    momentos em memórias.
+                    Criamos bolos que encantam aos olhos, mas principalmente, tocam a alma.
+                    Cada detalhe é pensado com intenção.
+                    Cada escolha é feita com sensibilidade.
+                    Cada criação carrega cuidado.
+                    Se você acredita que celebrar é um ato de amor, você está no lugar certo.
+                    </p>
+                    <Link to="/contato" className='Linkando '>Saiva mais</Link>
+
+            </span>
+            
+               
         </div>
 
         <div className='av'>

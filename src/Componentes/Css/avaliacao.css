@@ -11,17 +11,19 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100vw;
+
     margin-bottom: 100px;
     gap: 30px;
+    text-align: center;
     
 }
 
 .imagem {
-
+ 
     height: 100%;
-    width: 40vw;
+    width: 50vw;
     background-color: antiquewhite;
     
     
@@ -61,4 +63,52 @@
 .teste {
     width: 20vw;
     background-color: blue;
+}
+
+
+@media screen and (max-width: 768px) {
+    .lista {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #Sobre {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+    margin-bottom: 100px;
+    gap: 30px;
+    
+}
+
+#Sobre p {
+    display: flex;
+    
+    text-align: center;
+    width: 100%;
+}
+
+.imagem {
+
+    height: 60vh;
+    width: 100%;
+    background-color: antiquewhite;
+    
+    
+}
+
+.av {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
 }
