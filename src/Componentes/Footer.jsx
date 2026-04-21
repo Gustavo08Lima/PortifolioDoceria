@@ -7,7 +7,7 @@ function Footer() {
        <>
        <span className='infos'>
         <p><strong>Casa - Ateliê de Bolos e Doces</strong> <br />Por André Oliveira</p>
-        <p><strong>Localização</strong> <br />Av. Engenheiro Heitor Antônio Eiras Garcia, 858 <br /> Jd. Esmeralda, Butantã - SP <br />(Somente retirada ou entrega, não temos loja física)</p>
+        <p><strong>Localização</strong> <br />Rua das Tulipas 450<br /> Vila Madalena<br /> São Paulo/SP</p>
         <p><strong>Contato</strong> <br />Entre em contato <br /> WhatsApp</p>
        </span>
         <footer>
