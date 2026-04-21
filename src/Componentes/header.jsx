@@ -16,7 +16,9 @@ function Header() {
             <Link to="/Produtos">Prudutos</Link>
             
             <Link to="/Sobre">Quem somos</Link>
-            <Link to=""><span className="wpp">WhatsApp</span></Link>
+           <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+    <span className="wpp">WhatsApp</span>
+</a>
             <span><img src={insta} alt="" /></span>
         </nav>
         
