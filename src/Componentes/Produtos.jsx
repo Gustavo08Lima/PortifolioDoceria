@@ -20,6 +20,7 @@ function PaginaProdutos() {
      <a href="#bolo"><Itens text="Bolo" imagem={cake}/></a> 
      <a href="#Cup"><Itens text="Cupcakes" imagem={cup}/></a>
      <a href="#Brigadeiro"><Itens text="Brigadeiros" imagem={brigadeiro}/></a> 
+     
       </span>
 
       

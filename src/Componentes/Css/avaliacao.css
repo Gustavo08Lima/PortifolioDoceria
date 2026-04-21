@@ -7,6 +7,12 @@
     flex-direction: column;
 }
 
+.secao h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: rgb(147, 42, 42);
+}
+
 #Sobre {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -17,6 +23,11 @@
     margin-bottom: 100px;
     gap: 30px;
     text-align: center;
+    
+     background-image: url('../../assets/Ramos\ -\ Copia.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px;
     
 }
 
@@ -86,6 +97,7 @@
     height: 120vh;
     margin-bottom: 100px;
     gap: 30px;
+     background-size: 250px;
     
 }
 
@@ -112,4 +124,14 @@
 }
 
 
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+     #Sobre {
+    
+     background-size: 300px;
+    
+}
 }

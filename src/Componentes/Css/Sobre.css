@@ -1,0 +1,46 @@
+.Fundo {
+    background-color: white;
+    height: 110vh;
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+    
+    background-image: url('../../assets/Ramos.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 600px;
+}
+
+.Fundo h3 {
+    padding: 5vh;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(147, 42, 42);
+}
+
+.pessoa {
+    height: 60vh;
+    padding: 20px;
+ 
+}
+
+
+
+.Sobr {
+    display: flex;
+    width: 80vw;
+  
+    text-align: center;
+    
+}
+
+.Perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+

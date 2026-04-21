@@ -1,9 +1,9 @@
 footer {
-    margin-top: 1px;
+   
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4E8EEE;
+    background-color: rgba(17, 154, 208, 0.787);
     height: 3rem;
 }
 
@@ -13,7 +13,7 @@ footer {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color:  rgba(78, 149, 190, 0.656);
+    background-color: #003366ca;
     height: 14rem;
     text-align: center;
     color: white;

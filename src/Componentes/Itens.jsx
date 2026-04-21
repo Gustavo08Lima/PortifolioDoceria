@@ -3,9 +3,7 @@ import "./Css/itens.css"
 
 function Itens (props) {
     return (
-        <>
-
-      
+    
 
         <div className="caixa">
           <span> <img className={`caixa2 ${props.estilo}`}  
@@ -13,7 +11,7 @@ function Itens (props) {
            {props.text} </span>  
         </div>
         
-        </>
+
     )
 }
 

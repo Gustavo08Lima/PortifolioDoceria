@@ -1,6 +1,6 @@
 
 import './Css/avaliacao.css'
-import bolo from '../assets/bolo-david.avif'
+import bolo from '../assets/Doces.jpg'
 import cup from '../assets/cake.jpg'
 import muffin from '../assets/muffin.jpg'
 import Pcake from '../assets/piece-cake.jpg'
@@ -14,11 +14,12 @@ import { Link } from 'react-router-dom';
 function Avaliacao () {
 
     return (
-     <>
+     
      <div className='secao'>
 
-
+  <h3>Doces</h3>
          <div className='lista' style={{display:'flex', justifyContent:'center', gap: '5px', width:'100%'}}>
+          
             <SaibaMais
              estilo="tamanho"
              candy={cup}
@@ -54,7 +55,7 @@ function Avaliacao () {
                     Cada criação carrega cuidado.
                     Se você acredita que celebrar é um ato de amor, você está no lugar certo.
                     </p>
-                    <Link to="/contato" className='Linkando '>Saiva mais</Link>
+                    <Link to="/Sobre" className='Linkando '>Saiba mais</Link>
 
             </span>
             
@@ -90,7 +91,7 @@ function Avaliacao () {
         
         </div>
      </div>
-     </>
+     
     )
 
 }

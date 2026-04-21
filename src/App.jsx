@@ -1,8 +1,8 @@
-import { useState } from 'react'
-import "./Componentes/Css/App.css"
 
+import "./Componentes/Css/App.css"
+import img from "./assets/fundo.avif"
 import PaginaProdutos from './Componentes/Produtos'
-import Doces from './Componentes/Doces'
+import Doces from './Componentes/Sobre'
 import Header from './Componentes/header'
 import Footer from './Componentes/Footer'
 import Paralax from './Componentes/paralax'
@@ -27,7 +27,7 @@ function App() {
       <Route path='/' element={
 
        <>
-        <Paralax/> 
+        <Paralax imagem={img}/> 
  
   <Avaliacao />
       </> 
@@ -35,7 +35,7 @@ function App() {
       } />
       
       <Route path='/Produtos' element={<PaginaProdutos/>} /> 
-      <Route path='/Doces' element={<Doces/>} /> 
+      <Route path='/Sobre' element={<Doces/>} /> 
     </Routes>
 
     <Footer/>

@@ -15,6 +15,7 @@ function Header() {
         <nav className="link">
             <Link to="/Produtos">Prudutos</Link>
             
+            <Link to="/Sobre">Quem somos</Link>
             <Link to=""><span className="wpp">WhatsApp</span></Link>
             <span><img src={insta} alt="" /></span>
         </nav>

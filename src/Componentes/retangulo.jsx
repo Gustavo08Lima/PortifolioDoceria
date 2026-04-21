@@ -1,11 +1,9 @@
 import './Css/retangulo.css'
-import bolo from '../assets/muffin.jpg'
 import { Link } from 'react-router-dom';
 
 
 function SaibaMais (props){
     return (
-        <>
         
         <div style={{display:'flex', gap:"50px"}}>
 
@@ -25,8 +23,7 @@ function SaibaMais (props){
 
 
         </div>
-        
-        </>
+ 
     )
 }
 
